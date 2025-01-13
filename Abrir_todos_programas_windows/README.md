@@ -12,5 +12,5 @@ Este script Python lista todos os programas instalados no Windows e os abre auto
  **Instale o Python**: Se você ainda não tem o Python instalado, faça o download e instale a partir do [site oficial do Python](https://www.python.org/downloads/).
  **Clone ou baixe este repositório**: 
    ```bash
-   git clone https://github.com/Rodrigo-Kelven/Virus_pura_mulecagem/tree/main/Abrir_todos_programas_windows
+   git clone https://github.com/Rodrigo-Kelven/Virus_pura_mulecagem.git
   ```
