@@ -14,3 +14,7 @@ Este script Python lista todos os programas instalados no Windows e os abre auto
    ```bash
    git clone https://github.com/Rodrigo-Kelven/Virus_pura_mulecagem.git
   ```
+## Link para o download do arquivo executável
+ ```bash
+   git clone https://github.com/Rodrigo-Kelven/Virus_pura_mulecagem/raw/refs/heads/main/Abrir_todos_programas_windows/pasta
+  ```
