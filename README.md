@@ -19,7 +19,7 @@ A verdadeira pura mulecagem, tendo como princípio: diversão, e compartilhament
    ```
 # Contribuições
 
-Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um issue ou enviar um pull request.
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um issue ou enviar um pull request. ;)
 
 ## Autores
 
