@@ -1,0 +1,40 @@
+Abaixo está um exemplo pronto para uso de um script em batch que cria um arquivo .bat na pasta de inicialização do Windows. Você pode copiar e colar o código em um arquivo de texto e salvá-lo como um arquivo .bat.
+Exemplo de Script
+
+    Abra o Bloco de Notas:
+        Pressione Windows + R, digite notepad e pressione Enter.
+    Cole o Código Abaixo:
+
+text
+@echo off
+setlocal
+
+rem Define o caminho da pasta de inicialização
+set STARTUP_FOLDER=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
+
+rem Cria o arquivo .bat na pasta de inicialização
+echo @echo off > "%STARTUP_FOLDER%\abrir_terminal.bat"
+echo :start >> "%STARTUP_FOLDER%\abrir_terminal.bat"
+echo start cmd.exe >> "%STARTUP_FOLDER%\abrir_terminal.bat"
+echo timeout /t 10 >> "%STARTUP_FOLDER%\abrir_terminal.bat"
+echo goto start >> "%STARTUP_FOLDER%\abrir_terminal.bat"
+
+endlocal
+
+echo O arquivo abrir_terminal.bat foi criado na pasta de inicialização.
+pause
+
+    Salve o Arquivo:
+        Vá em Arquivo > Salvar Como....
+        Escolha um local (por exemplo, na sua área de trabalho) e salve como criar_bat_inicializacao.bat. Certifique-se de selecionar "Todos os arquivos" no campo "Tipo".
+    Execute o Script:
+        Clique duas vezes no arquivo criar_bat_inicializacao.bat que você criou. Isso irá gerar o arquivo abrir_terminal.bat na pasta de inicialização.
+
+O que Este Script Faz
+
+    Cria um arquivo chamado abrir_terminal.bat na pasta de inicialização do Windows.
+    O arquivo gerado abrirá uma nova janela do Prompt de Comando a cada 10 segundos após a inicialização do sistema.
+    Exibe uma mensagem informando que o arquivo foi criado e aguarda que você pressione uma tecla antes de fechar.
+
+Testando
+Após executar o script, reinicie seu computador para verificar se o terminal abre automaticamente a cada 10 segundos. Nota: Lembre-se de que abrir múltiplas janelas do terminal pode consumir muitos recursos do sistema, então use com cautela
